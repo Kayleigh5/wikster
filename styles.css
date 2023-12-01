@@ -8,7 +8,7 @@ html, body {
     width: 100%;
     height: 100%;
     font-family: papyrus;
-    background-color: #dde9e3
+    background-color: #dde9e3;
 }
 
 html, body, a:link, a:visited {
@@ -23,7 +23,6 @@ nav>a {
     padding-left: 10px;
     padding-right: 10px;
 }
-
 
 /* unvisited link */
 a:link {
@@ -132,7 +131,7 @@ footer {
     height: 30px;
 }
 
-@media (min-width: 700px) {
+@media screen and (min-width: 700px) {
     .album-cover {
       width: 700px;
     }
