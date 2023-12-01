@@ -1,0 +1,152 @@
+@font-face {
+    font-family: papyrus;
+    src: url(./src/papyrus-font/papyrus.ttf);
+  }
+
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: papyrus;
+    background-color: #dde9e3
+}
+
+html, body, a:link, a:visited {
+    color: #3d4053;
+}
+
+nav {
+    padding: 20px;
+}
+
+nav>a {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/* unvisited link */
+a:link {
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+.title {
+    margin-top: 40px;
+}
+
+.album-showcase {
+    margin-top: 50px;
+}
+
+.album-showcase > * {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.album-cover {
+    width: 100%;
+}
+
+.album-cover, .artist-art {
+    border-radius: 2%;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.album-links {
+    margin-top: 30px;
+    flex-direction: column;
+}
+
+.spotify-player {
+    width: 100%;
+}
+
+.artist-art {
+    width: 100%;
+    height: auto;
+}
+
+.bio-text {
+    width: 100%;
+    padding: 20px;
+}
+
+.witch-hat {
+    width: 40px;
+    margin-top: 20px;
+}
+
+.streaming-logo {
+    height: 30px;
+    padding: 20px;
+}
+
+.bandcamp-logo {
+    width: 150px;
+}
+
+.page {
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.page-title {
+    margin-bottom: 50px;
+}
+
+
+.album-links > h3 {
+    text-align: center;
+}
+
+footer {
+    margin-top: 150px;
+    font-size: small;
+}
+
+.streaming-links {
+    width: 100%;
+}
+
+.streaming-links > div {
+    width: 561px;
+}
+
+#contact-mail {
+    height: 30px;
+}
+
+@media (min-width: 700px) {
+    .album-cover {
+      width: 700px;
+    }
+
+    .spotify-player {
+        width: 400px
+    }
+
+    .artist-art {
+        height: 475px;
+        width: auto;
+    }
+
+    .bio-text {
+        width: 350px;
+    }
+  }

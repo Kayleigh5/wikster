@@ -2,39 +2,102 @@
 <html>
 
 <head>
-	<title>Page Layout</title>
-	<style>
-		html, body {
-            margin: 0;
-            width: 100%;
-            height: 100%;
-        }
-
-        div {
-            display: flex;
-            justify-content: center;
-            margin-top: 50px;
-        }
-
-        img {
-            width: 80%;
-        }
-	</style>
+    <title>Wikster Muziek</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="./src/images/Wikster-icon.png">
 </head>
 
 <body>
 
-	<!-- Body section -->
-	<main class="body_sec">
-		<section id="Content">
-            <div>
-                <img src="./wikster-lp.png">
-            </div>
-		</section>
-	</main>
+    <main>
 
-	<!-- Footer Section -->
-	<!-- <footer>Footer Section</footer> -->
+        <div class="title flex-center">
+            <h1>WIKSTER</h1>
+        </div>
+
+        <nav class="flex-center">
+            <a href="#">Home</a> |
+            <a href="#bio">Bio</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a name="#"></a>
+        <section>
+            <div class="album-showcase flex-center">
+                <img src="./src/images/WIKSTER-OFFICIAL-ALBUM-ART.png" class="album-cover">
+                <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/album/32Bmw8SJoMUJwC0wmsua8H?utm_source=generator" height="352"
+                    frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"
+                    class="spotify-player"></iframe>
+            </div>
+            <div class="album-links flex-center">
+                <h3 class="flex-center">Support Wikster op bandcamp... </h3>
+                <div class="flex-center"> <a href="https://wikstermuziek.bandcamp.com/album/wat-zij-ooit-deed"
+                        target="_blank"><img src="./src/images/bandcamp-logo.png" class="bandcamp-logo"></a></div>
+                <h3 class="flex-center">...of luister via je favoriete streaming app:</h3>
+                <div class="flex-center streaming-links">
+                    <div class="flex-center">
+                        <a href="https://open.spotify.com/artist/4jwVR61t7XntXJIBGjqWvg?si=jj7cX24WQe6MGh6d4buiow"><img
+                                src="./src/images/spotify.svg" class="streaming-logo"></a>
+                        <a href="https://music.apple.com/nl/album/wat-zij-ooit-deed-single/1717424242"
+                            target="_blank"><img src="./src/images/apple-music.svg" class="streaming-logo"></a>
+                        <a href="https://www.deezer.com/nl/album/514793182" target="_blank"><img
+                                src="./src/images/deezer.svg" class="streaming-logo"></a>
+                        <a href="https://music.amazon.com/albums/B0CNQ9HFKX" target="_blank"><img
+                                src="./src/images/amazon.svg" class="streaming-logo"></a>
+                        <a href="https://tidal.com/browse/album/329994446" target="_blank"><img
+                                src="./src/images/tidal.svg" class="streaming-logo"></a>
+                        <a href="https://music.tiktok.com/player" target="_blank"><img src="./src/images/tik-tok.png"
+                                class="streaming-logo"></a>
+                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_kNYpH8G7v1CV_CxjAr6Gxv884pb8wb8pc&feature=shared"
+                            target="_blank"><img src="./src/images/youtube-music.png" class="streaming-logo"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <a name="bio"></a>
+        <section>
+            <div class="page flex-center">
+                <div class="flex-center">
+                    <h2 class="page-title">BIO</h2>
+                </div>
+                <div class="flex-center">
+                    <img src="./src/images/artist-artwork.png" class="artist-art">
+                    <p class="bio-text">Alve en Kayleigh zijn nichtjes uit een grote familie. Elk jaar ontmoetten ze
+                        elkaar in de herfst en bouwden ze een sterke band op tijdens het jaarlijkse familieweekend. Als
+                        kinderen waren ze vanaf het begin ondeugend en sterk verbonden. Als volwassenen vonden ze elkaar
+                        in het gevoel, de liefde voor de natuur, het verbeteren van de wereld, en het spelen met magie
+                        en geluid. Kayleigh is het brein achter het mixen en produceren van muziek en Alve heeft een
+                        speelse creatieve kant. Hierdoor krijgt Kayleigh’s muzikale talent een nieuwe wending. Alve
+                        heeft een talent voor schrijven, haar verhalen vormen de inspiratie voor de songteksten. Beiden
+                        zijn gepassioneerde zangeressen en proberen hun boodschap over het leven, de natuur en een
+                        wondere wereld te vertalen naar muziek.</p>
+                </div>
+            </div>
+        </section>
+
+        <a name="contact"></a>
+        <section>
+            <div class="page flex-center">
+                <div class="flex-center">
+                    <h2 class="page-title">CONTACT</h2>
+                </div>
+                <div class="flex-center">
+                    <img src="./src/images/contact-mail.png" id="contact-mail">
+                </div>
+                <div class="flex-center">
+                    <p>♥</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="flex-center">
+        <p>© Wikster Muziek 2023</p>
+    </footer>
 </body>
 
 </html>
